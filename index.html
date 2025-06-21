@@ -28,6 +28,23 @@
             margin: 10px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+        .section-header-impact {
+            display: block; 
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            border-radius: 25px;
+            margin: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(
+                to right,
+                white,
+                #eabb5c,
+                #d96d32,
+                #a7c839,
+                #4673b9
+            );
+        }
         button {
             padding: 10px 20px;
             font-size: 16px;
@@ -45,7 +62,12 @@
 </head>
 <body>
     <h1>[Ninja first name]'s Games</h1>
-    
+
+    <div class="button-container">
+        <div class="section-header-impact" ;">IMPACT Games</div>
+        <button onclick="window.location.href='[Makecode arcade link here]'">Go to [game 1 name not yet added]</button>
+    </div>
+ 
     <div class="button-container">
         <div class="section-header" style="background-color: #893f98;">Purple Belt Games</div>
         <button onclick="window.location.href='Game1NameDemo/index.html'">Go to [game 1 name not yet added]</button>
